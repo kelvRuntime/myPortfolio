@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "../styles/Home.css";
-import profileImg from "../assets/profileImg.webp";
+import profileImg2 from "../assets/profileImg2.jpg";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -35,7 +35,7 @@ const Home = () => {
           <div className="image-wrapper">
             <div className="image-border-glow"></div>
             <img
-              src={profileImg}
+              src={profileImg2}
               alt={t("hero_avatar_alt")}
               className=" hero-avatar"
               fetchPriority="high"

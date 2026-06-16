@@ -1,29 +1,32 @@
 import { useTranslation } from "react-i18next";
 import Card from "../components/Card";
 import anjoLogo from "../assets/anjo-logo.webp";
+import BelAyitiTravellogo from "../assets/project/belAyitiTravel-logo.webp";
+import MediaAPi from "../assets/project/MediaAPI.png";
 
 const Projects = () => {
   const { t } = useTranslation();
 
   const projects = [
     {
-      titleKey: "project_0_title",
-      descKey: "project_0_desc",
+      titleKey: "MyPortfolio",
+      descKey:
+        "KelvRuntime an developer portfolio built with React, showcasing projects, skills, and experience with a modern design and responsive layout.",
       image: anjoLogo,
       link: "#",
     },
     {
-      titleKey: "project_1_title",
-      descKey: "project_1_desc",
-      image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      titleKey: "BelAyitiTravel",
+      descKey:
+        "agency of travel and tourism in haiti were you can book your next trip to haiti or enywhere in the world they have the best prices and the best service and flights and hotels and more....",
+      image: BelAyitiTravellogo,
       link: "#",
     },
     {
-      titleKey: "project_2_title",
-      descKey: "project_2_desc",
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
+      titleKey: "MediaAPI",
+      descKey:
+        "A web were you can download video and music from youtube and other platform for free and fast",
+      image: MediaAPi,
       link: "#",
     },
     {

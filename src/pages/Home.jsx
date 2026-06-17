@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "../styles/Home.css";
-import profileImg2 from "../assets/profileImg2.jpg";
+import profileImg2 from "../assets/profileImg.webp";
 
 const Home = () => {
   const { t } = useTranslation();
